@@ -13,13 +13,14 @@
 	},
 	"license": "MIT",
 	"environment": "*",
+	"icon": "icon.png",
 	"entrypoints": {
 		"main": [
 			"hugman.devmode.DevMode"
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.8.9",
+		"fabricloader": "*",
 		"fabric": "*"
 	}
 }
