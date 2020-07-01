@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "devmode",
+	"version": "${version}",
+	"name": "DevMode",
+	"description": "A very simple mod that allows players to use the development mode of Minecraft.",
+	"authors": [
+		"Hugman"
+	],
+	"contact": {
+		"sources": "https://github.com/Hugman76/DevMode",
+		"issues": "https://github.com/Hugman76/DevMode/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hugman.devmode.DevMode"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.8.9",
+		"fabric": "*"
+	}
+}
